@@ -29,7 +29,6 @@ class School
   def sort
     @roster.each do |grade,student_array|
       student_array.sort
-      binding.pry
     end
   end
 
