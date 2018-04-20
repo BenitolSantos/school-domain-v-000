@@ -16,12 +16,13 @@ class School
     if @roster.keys.find{|i| i == @student_grade}
       @roster[@student_grade] << @student_name #pushes to array if array is detected
     else
-      @roster[@student_grade] = [@student_name] #otherwise creates an new array with 
+      @roster[@student_grade] = [@student_name] #otherwise creates an new array with
       #with the students array
     end
   end
 
-  def grade
+  def grade(grade_number)
+
   end
 
   attr_reader :name
