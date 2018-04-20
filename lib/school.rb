@@ -20,5 +20,8 @@ class School
     end
   end
 
+  def grade
+  end
+
   attr_reader :name
 end
