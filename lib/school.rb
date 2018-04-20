@@ -28,7 +28,7 @@ class School
 
   def sort
     @roster.each do |grade,student_array|
-      student_array.sort!
+      student_array.sort! #a bang is needed to make it permanent.
     end
   end
 
