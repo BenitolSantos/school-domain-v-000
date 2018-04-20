@@ -13,8 +13,11 @@ class School
   def add_student(student_name,student_grade)
     @student_name = student_name
     @student_grade = student_grade
-    @roster.find{|i| i == @student_grade}
-    @roster[@student_grade] = Array.new
+    if @roster.values.find{|i| i == @student_grade}
+      
+    else 
+      @roster[@student_grade] = [@student_name]
+    end
   end
 
   attr_reader :name
