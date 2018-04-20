@@ -2,8 +2,8 @@
 class School
 
   def initialize(name) #initializing the schools name. with an empty hash roster.
-    @name = name  #of course its with instantance variables
-    @roster = {}
+    @name = name  #of course its with instantance variables so they can be
+    @roster = {}  #accessed outside the method.
   end
 
   def roster #roster pulls the roster hash
