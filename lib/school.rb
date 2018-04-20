@@ -1,5 +1,5 @@
 # code here!
-class School(name)
+class School
 
 
 end
