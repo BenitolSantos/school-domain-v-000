@@ -6,9 +6,6 @@ class School
     @name = name
   end
 
-  def initialize
-  end 
-
   def roster
     roster
   end
