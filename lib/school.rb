@@ -4,5 +4,7 @@ class School
     @name = name
   end
 
+  
+
   attr_reader :name
 end
