@@ -9,7 +9,7 @@ class School
   def initialize
 
   def roster
-    roster = {}
+    roster
   end
 
   attr_reader :name
