@@ -1,4 +1,5 @@
 # code here!
+require "pry"
 class School
 
   def initialize(name) #initializing the schools name. with an empty hash roster.
