@@ -1,8 +1,8 @@
 # code here!
 class School
 
-  def initialize(name)
-    @name = name
+  def initialize(name) #initializing the schools name. with an empty hash roster.
+    @name = name  #of course its with instantance variables
     @roster = {}
   end
 
