@@ -6,7 +6,7 @@ class School
     @roster = {}
   end
 
-  def roster
+  def roster #roster pulls the roster
     @roster
   end
 
