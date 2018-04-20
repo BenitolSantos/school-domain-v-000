@@ -13,7 +13,7 @@ class School
   def add_student(student_name,student_grade)
     @student_name = student_name
     @student_grade = student_grade
-    if @roster.values.find{|i| i == @student_grade}
+    if @roster.keys.find{|i| i == @student_grade}
       @roster[@student_grade] << @student_name
     else
       @roster[@student_grade] = [@student_name]
