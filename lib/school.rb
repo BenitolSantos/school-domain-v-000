@@ -22,7 +22,10 @@ class School
   end
 
   def grade(grade_number)
-    @roster[grade_number]
+    @roster[grade_number] #calls the grade number as a key value
+  end
+
+  def sort
   end
 
   attr_reader :name
